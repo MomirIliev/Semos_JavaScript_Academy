@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="registration for event, form">
+    <meta name="keywords" content="registration, form, event">
+    <meta name="author" content="Momir Iliev">
+    <title>Form Homework</title>
+</head>
+<body style="background-color:lavender;">
+    
+        <table style="width: 700px; height: 800px; margin-left: 30%; margin-top:  50px; border:dodgerblue solid 5px; background-color:rgb(253, 255, 129); border-radius: 15px;" cellspacing="20" cellpadding="20">
+            <thead >
+                <tr style="background-color: black; color: white;">
+                <th colspan="3" style="border:springgreen solid 4px; border-radius: 15px;">EVENT REGISTRATION FORM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form method="get">
+                <tr>
+                    <td>
+                        <p style="width: 100px;"><b>Name</b></p>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" id="firstName" required style="border: lightseagreen solid 2px; border-radius: 5px;">
+                        <label for="firstName" ><b>First Name</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" id="lastName" required" style="border: lightseagreen solid 2px; border-radius: 5px;">
+                        <label for="lastName"><b>Last Name</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Company</b></p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="company" id="company" style="width: 90%; border: lightseagreen solid 2px; border-radius: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Email</b></p>
+                    </td>
+                    <td colspan="2">
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" style="width: 90%; border: lightseagreen solid 2px; border-radius: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Phone</b></p>
+                    </td>
+                    <td style="width: 30%;">
+                        <input type="number" name="areaCode" id="areaCode" style="border: lightseagreen solid 2px; border-radius: 5px;">
+                        <label for="areaCode"><b>Area Code</b></label>
+                    </td>
+                    <td style="width: 40%;">
+                        <input type="number" name="phoneNumber" id="phoneNumber" style="border: lightseagreen solid 2px; border-radius: 5px;">
+                        <label for="phoneNumber"><b>Phone Number</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><b>Subject</b></p>
+                    </td>
+                    <td colspan="2">
+                        <select name="subject" id="subject" style="border: lightseagreen solid 2px; border-radius: 5px;">
+                            <option disabled selected >Select Subject</option>
+                            <option value="Programiranje" >Programiranje</option>
+                            <option value="Matematika" >Matematika</option>
+                            <option  value="Fizika">Fizika</option>
+                            <option  value="Hemija">Hemija</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="width: 250px;"><b>Are you an existing customer?</b></p>
+                        <label for="existingCustomer"><b>Yes</b></label>
+                        <input type="radio" name="existingCustomer" id="existingCustomer" value="Yes" checked>
+                        <label for="existingCustomer"><b>No</b></label>
+                        <input type="radio" name="existingCustomer" id="nonExistingCustomer" value="No">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" name="submit" id="submit" value="REGISTER" style="color: white; background-color: red; width: 150px; height: 50px; border: lightseagreen solid 2px; border-radius: 10px;">
+                    </td>
+                </tr>
+                </form>
+            </tbody>
+        </table>
+        
+</body>
+</html>

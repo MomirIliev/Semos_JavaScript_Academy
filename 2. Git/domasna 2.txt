@@ -1,0 +1,10 @@
+Kreirajte nov direktorium imenuvajte go po vasa zelba i potoa klonirajte go vasiot oddalecen repozitorium tuka vo noviot direktorium
+Potoa kreirajte nov branch i preflete se na toj nov branch da rabotite.
+Kreirajte nov fajl.
+Napravete merge na noviot branch kon master branch-ot.
+Otkako ke napravite merge i ke gi pustite promenite kon oddaleceniot repozitorium izbrisete gi lokalniot nov branch, a potoa i noviot branch
+od vasiot oddalecen repozitorium.
+Prodolzete da rabotite na master branch, kreirajte uste eden nov direktorium so ime najnov_folder vo noviot direktorium sto prethodno go kreiravte.
+Kreirajte nov txt fajl i prefrlete go direktoriumot najnov_folder.
+
+Done

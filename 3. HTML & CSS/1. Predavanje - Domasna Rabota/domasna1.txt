@@ -1,0 +1,5 @@
+Napravete povekje html fajlovi, prviot neka se vika index.html, za ostanatite ostavam na vas.
+Vo index.html napisete ja osnovnata struktura na eden html fajl, potoa nasata prva web strana treba da ima header so naslov, logo(slika) 
+i navigacionen bar so nekolku elementi koi sto ke imaat link do ostanatite html fajlovi sto gi iskreiravte prethodno.
+Kreirajte vgnezdena lista slicno kako na cas po vasa zelba (za fudbalski klubovi ili klubovi od bilo koj sport, za filmovi i akteri, recept itn)
+Potoa kreriajte tabela za akteri koja ke ima 4 koloni Ime Prezime Godini i Slika. Imeto i prezimeto na akterite da bidat markirani. 

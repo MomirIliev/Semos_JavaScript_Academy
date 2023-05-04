@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          id="logo"
+          src="../pictures/LogosAndBackgrounds/logo.jpg"
+          alt="logoHomepage"
+        />
+        <h1 id="titleHeading">
+          Jobs fill your pockets, adventures fill your soul
+        </h1>
+      </div>
+      <div id="navBarBase">
+        <nav>
+          <ul id="navBar">
+            <li><a href="../templates/index.html">Home Page</a></li>
+            <li>
+              <a href="../templates/southMacedonia.html">South Macedonia</a>
+            </li>
+            <li>
+              <a href="../templates/ohrid.html">Ohrid</a>
+            </li>
+            <li><a href="../templates/turkey.html">Turkey</a></li>
+            <li><a href="../templates/registration.html">Let's Travel</a></li>
+          </ul>
+        </nav>
+      </div>
+      <form id="searchBar" action="">
+        <ul>
+          <li>
+            <label for="search">Search</label>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="your favorite destination?"
+            />
+            <input type="submit" value="Go" id="submitButton" />
+          </li>
+        </ul>
+      </form>
+      <br />
+    </header>
+    <main>
+      <h2 id="titleRegistration">
+        Have you already chosen your next destination? <br />
+        Send us your information and we will make an offer for you
+      </h2>
+      <table
+        style="
+          width: 700px;
+          height: 800px;
+          margin-left: 30%;
+          margin-top: 50px;
+          border: dodgerblue solid 5px;
+          background-color: rgba(255, 250, 185, 0.8);
+          border-radius: 15px;
+        "
+        cellspacing="20"
+        cellpadding="20"
+      >
+        <thead>
+          <tr style="background-color: black; color: white">
+            <th
+              colspan="3"
+              style="border: springgreen solid 4px; border-radius: 15px"
+            >
+              REGISTRATION FORM
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <form method="get">
+            <tr>
+              <td>
+                <p style="width: 100px"><b>Name</b></p>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  required
+                  style="border: lightseagreen solid 2px; border-radius: 5px"
+                />
+                <label for="firstName"><b>First Name</b></label>
+              </td>
+              <td>
+                <input type="text" name="lastName" id="lastName" required"
+                style="border: lightseagreen solid 2px; border-radius: 5px;">
+                <label for="lastName"><b>Last Name</b></label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><b>Destination</b></p>
+              </td>
+              <td colspan="2">
+                <select
+                  name="subject"
+                  id="subject"
+                  style="border: lightseagreen solid 2px; border-radius: 5px"
+                >
+                  <option disabled selected>Select Destination</option>
+                  <option value="Programiranje">Ohrid</option>
+                  <option value="Matematika">Antalya</option>
+                  <option value="Fizika">Sithonia</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><b>Email</b></p>
+              </td>
+              <td colspan="2">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  style="
+                    width: 90%;
+                    border: lightseagreen solid 2px;
+                    border-radius: 5px;
+                  "
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><b>Phone</b></p>
+              </td>
+              <td style="width: 30%">
+                <input
+                  type="number"
+                  name="areaCode"
+                  id="areaCode"
+                  style="border: lightseagreen solid 2px; border-radius: 5px"
+                />
+                <label for="areaCode"><b>Area Code</b></label>
+              </td>
+              <td style="width: 40%">
+                <input
+                  type="number"
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  style="border: lightseagreen solid 2px; border-radius: 5px"
+                />
+                <label for="phoneNumber"><b>Phone Number</b></label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="width: 100px"><b>Traveling date</b></p>
+              </td>
+              <td>
+                <input
+                  type="date"
+                  name="going"
+                  id="going"
+                  required
+                  style="border: lightseagreen solid 2px; border-radius: 5px"
+                />
+                <label for="going"><b>From</b></label>
+              </td>
+              <td>
+                <input type="date" name="returning" id="returning" required"
+                style="border: lightseagreen solid 2px; border-radius: 5px;">
+                <label for="returning"><b>To</b></label>
+              </td>
+               <tr>
+              <td>
+                <p><b>Your Budget</b></p>
+              </td>
+              <td colspan="2">
+                <input
+                  type="number"
+                  name="budget"
+                  id="budget"
+                  style="
+                    width: 90%;
+                    border: lightseagreen solid 2px;
+                    border-radius: 5px;
+                  "
+                  placeholder="Enter / Choose your budget"
+                />
+              </td>
+            </tr>
+            </tr>
+           <tr>
+              <td>
+                <p><b>Let us know about your specific requirements</b></p>
+              </td>
+              <td colspan="2">
+                <input
+                  type="text"
+                  name="description"
+                  id="descriptionTravel"
+                  placeholder=""
+                  style="
+                    width: 90%;
+                    border: lightseagreen solid 2px;
+                    border-radius: 5px;
+                  "
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="width: 250px"><b>Are you already our customer?</b></p>
+                <label for="existingCustomer"><b>Yes</b></label>
+                <input
+                  type="radio"
+                  name="existingCustomer"
+                  id="existingCustomer"
+                  value="Yes"
+                  checked
+                />
+                <label for="existingCustomer"><b>No</b></label>
+                <input
+                  type="radio"
+                  name="existingCustomer"
+                  id="nonExistingCustomer"
+                  value="No"
+                />
+              </td>
+              </tr>
+            <tr>
+              <td colspan="3">
+                <input
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  value="REGISTER"
+                  style="
+                    color: white;
+                    background-color: red;
+                    width: 150px;
+                    height: 50px;
+                    border: lightseagreen solid 2px;
+                    border-radius: 10px;
+                  "
+                />
+              </td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

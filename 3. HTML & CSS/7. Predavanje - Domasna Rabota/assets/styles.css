@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fffbbd;
+}
+.firstRowDiv {
+    display: flex;
+    justify-content: center;
+}
+#firstRowInnerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    margin: 4% 4%;
+    background-color: skyblue;
+    border-top: 8px solid cornflowerblue;
+    border-right: 12px solid orange;
+    border-bottom: 12px solid aquamarine;
+    border-left: 4px solid blue;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.secondRowPictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pictures {
+    width: 400px;
+    height: 400px;
+    margin: 3% 2%;
+    border-radius: 4%;
+    padding: 1%; 
+    border: 5px dotted green;
+}
+
+#pictureTwo {
+ position: relative;
+ transform:translateY(-20%);   
+}
+
+.thirdRowBoxes {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.paddingBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxOne {
+    width: 242px;
+    height: 102px;
+    border: 5px dotted black;
+}
+
+.contentBox {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* Ova se dve klasi vo koi e kreiran vtoriot element ( Padding Box ) od posledniot red od domasnata rabota za box modelite.
+   Za ovoj element se koristeni dve klasi za postignuvanje na efektot od slikata za domasnata rabota kade sto 
+   granicata go zaobikoluva objektot bez da samata bide zafatena od bojata na pozadinata. 
+   Za prikazuvanje na svojstvata koi gi ima Content Box modelot mozeme isto taka da gi kombinirame ovie dve klasi vo edna klasa so toa sto
+   granicata ke bide vo sklop na elementot no matematicki gledano celokupnata golemina na objektot ke bide zbir na vrednostite od content-box, padding i border. 
+   Ovaa klasa moze da ja pogledneme vednas po zavrsuvanjeto na slednite dve klasi (.boxTwo i .paddingBox ). */
+.boxTwo {
+    width: 240px;
+    height: 100px;
+    padding: 1px;
+    border: 5px dotted black;
+    margin: 50px 100px;
+}
+
+.paddingBox {
+    width: 210px;
+    height: 70px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second Class for Padding-Box using Content-Box model  */
+/* .paddingBox {
+    width: 190px;
+    height: 140px;
+    padding: 5px;
+    border: 5px dotted black;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 100px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+} */
+
+.boxThree {
+    box-sizing: border-box;
+    width: 250px;
+    height: 110px;
+    padding: 0px;
+    border: 5px dotted black;
+    color: white;
+    background-color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+
