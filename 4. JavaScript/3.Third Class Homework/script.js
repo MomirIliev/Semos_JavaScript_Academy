@@ -114,4 +114,7 @@ switch (educationDegree) {
         break;
 };
 
-console.log(`Based on the statistics, because you have ${educationDegree} you can earn on average ${monthlySalary} Euros.`);
+if (monthlySalary > 0)
+    console.log(`Based on the statistics, because you have ${educationDegree} you can earn on average ${monthlySalary} Euros.`);
+else
+    console.log("Please enter a valid educational degree.");
