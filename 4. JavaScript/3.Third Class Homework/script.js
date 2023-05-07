@@ -85,33 +85,33 @@ else {
 // Fourth Assignment
 
 var educationDegree = prompt("Enter the degree of education: ");
-var salary; 
+var monthlySalary = 0; 
 
 switch (educationDegree) {
     case "No High School Diploma": 
-        salary = 500; 
+        monthlySalary = 500; 
         break;
     case "High School Diploma": 
-        salary = 1000; 
+        monthlySalary = 1000; 
         break;
     case "An Associate's degree": 
-        salary = 1500; 
+        monthlySalary = 1500; 
         break;
     case "A Bachelor's degree": 
-        salary = 2000; 
+        monthlySalary = 2000; 
         break;
     case "A Master's degree": 
-        salary = 2500; 
+        monthlySalary = 2500; 
         break;
     case "A Professional degree": 
-        salary = 3000; 
+        monthlySalary = 3000; 
         break;
     case "A Doctoral degree": 
-        salary = 5000; 
+        monthlySalary = 5000; 
         break;
     case "A Political degree":
-        salary = 1000000;
+        monthlySalary = 1000000;
         break;
-}
+};
 
-console.log(`Based on the statistics, because you have ${educationDegree} you can earn on average ${salary} Euros.`);
+console.log(`Based on the statistics, because you have ${educationDegree} you can earn on average ${monthlySalary} Euros.`);
