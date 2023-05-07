@@ -9,6 +9,7 @@ if (age >= 18) {
 else
     console.log("You are not allowed to drive yet. Try again when you will be at least 18 years old."); 
 
+
 // Second Assignment
 
 var month = prompt("Enter a month:");
@@ -52,6 +53,7 @@ switch (month) {
         break; 
 }
 
+
 // Third Assignment
 
 var  userInputInstruments= prompt("Enter the number of intruments in the band: "); 
@@ -79,35 +81,37 @@ else {
     console.log("This is orchestra performance");
 };
 
+
 // Fourth Assignment
 
-var userInputSalary = prompt("Enter the month salary: ");
-var salary = parseInt(userInputSalary); 
+var educationDegree = prompt("Enter the degree of education: ");
+var salary; 
 
-switch (salary) {
-    case 500: 
-        console.log("No high school diploma");
+switch (educationDegree) {
+    case "No High School Diploma": 
+        salary = 500; 
         break;
-    case 1000: 
-        console.log("A high school diploma");
+    case "High School Diploma": 
+        salary = 1000; 
         break;
-    case 1500: 
-        console.log("An Associate's degree");
+    case "An Associate's degree": 
+        salary = 1500; 
         break;
-    case 2000: 
-        console.log("A Bachelor's degree");
+    case "A Bachelor's degree": 
+        salary = 2000; 
         break;
-    case 2500: 
-        console.log("A Master's degree");
+    case "A Master's degree": 
+        salary = 2500; 
         break;
-    case 3000: 
-        console.log("A Professional degree");
+    case "A Professional degree": 
+        salary = 3000; 
         break;
-    case 5000: 
-        console.log("A Doctoral degree");
+    case "A Doctoral degree": 
+        salary = 5000; 
         break;
-    case 1000000: 
-        console.log("A Politicion in Republic of Macedonia");
+    case "A Political degree":
+        salary = 1000000;
         break;
 }
 
+console.log(`Based on the statistics, because you have ${educationDegree} you can earn on average ${salary} Euros.`);
