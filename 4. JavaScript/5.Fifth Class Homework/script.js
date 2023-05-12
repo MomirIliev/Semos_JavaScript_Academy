@@ -1,7 +1,16 @@
 // First Assignment
 
+// Assignment a
+for ( i = 0; i <= 20; i++) {
+    if (parseInt(i / 2) * 2 == i)
+        console.log(`number ${i} is even`);
+    else
+        console.log(`number ${i} is odd`);
+};
+
+
 // assignment b
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i <= 20; i++) {
     if (i % 2 == 0)
         console.log(`number ${i} is even`);
     else
