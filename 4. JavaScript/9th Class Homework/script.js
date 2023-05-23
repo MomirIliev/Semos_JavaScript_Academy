@@ -11,17 +11,15 @@ function DisplayImages(url) {
                 const imgTag = document.createElement('img');
                 imgTag.src = firstHundredElements[i].thumbnailUrl;
                 imgTag.addEventListener('click', () => {
-                    if(imgTag.src = firstHundredElements[i].url)
-                    imgTag.src = firstHundredElements[i].url; 
-                    // else if(imgTag.src = firstHundredElements[i].thumbnailUrl)
+                    if (imgTag.src == firstHundredElements[i].thumbnailUrl)
+                        imgTag.src = firstHundredElements[i].url;
                     else
-                    imgTag.src = firstHundredElements[i].thumbnailUrl;
+                        imgTag.src = firstHundredElements[i].thumbnailUrl;
                 })
                 document.body.appendChild(imgTag);
             }
         })
-        .catch(err)
-            console.log(err); 
+        .catch(err => console.log(err));
 }
 
-DisplayImages(url);
+DisplayImages(url);                 
